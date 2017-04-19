@@ -1,0 +1,6 @@
+20/02/17 23:16:48 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"marco.lima18@gmail.com") VALUES ('')' at line 1
+20/02/17 23:19:21 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"marco.lima18@gmail.com") VALUES ('')' at line 1
+22/02/17 19:44:40 - Unknown column 'nome' in 'field list'
+22/02/17 19:45:51 - Unknown column 'nome' in 'field list'
+25/02/17 20:54:42 - Unknown column 'id_tipo_festa' in 'field list'
+25/02/17 20:55:44 - Unknown column 'id_tipo_festa' in 'field list'

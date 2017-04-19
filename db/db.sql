@@ -41,7 +41,8 @@ CREATE TABLE semnomedb.usuario (
 
 CREATE TABLE semnomedb.cliente (
 	id 				INTEGER 	PRIMARY KEY 	AUTO_INCREMENT,
-	email 			TEXT 		NOT NULL 		UNIQUE,
+	email 			TEXT 		NOT NULL 		UNIQUE,	
+	login			VARCHAR(20) NOT NULL		UNIQUE,	
 	razao_social	TEXT		NOT NULL,
 	nome_fantasia	TEXT,
 	logo			INTEGER		NOT NULL 		REFERENCES arquivo(id),
@@ -51,7 +52,7 @@ CREATE TABLE semnomedb.cliente (
 	endereco		TEXT		NOT NULL,
 	latitude		VARCHAR(20),
 	longitude		VARCHAR(20),
-	url_facebook 	TEXT	
+	url_facebook 	TEXT
 ) ENGINE = INNODB;
 
 CREATE TABLE semnomedb.anuncio (

@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteBase /Projeto_mlima/server/
+##RewriteBase /server/
+RewriteRule ^(.*)$ ./index.php/$1 [L]
+Options -Indexes
